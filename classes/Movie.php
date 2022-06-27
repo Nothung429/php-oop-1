@@ -8,8 +8,9 @@
         public $cast;
         public $production;
         public $poster;
+        public $price;
 
-        public function __construct($_title, $_year, $_language, $_valutation, $_director, $_cast, $_production)
+        public function __construct($_title, $_year, $_language, $_valutation, $_director, $_cast, $_production, $_poster)
         {
             $this->title = $_title;
             $this->year = $_year;
@@ -18,6 +19,7 @@
             $this->director = $_director;
             $this->cast = $_cast;
             $this->production = $_production;
+            $this->poster = $_poster;
         }
     }
 ?>
